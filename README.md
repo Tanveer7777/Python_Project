@@ -1,39 +1,78 @@
---Project Goals
+# 🏠 Airbnb Listings Data Analysis
 
-Load and explore Airbnb listings dataset.
+## Project Description
+This project analyzes Airbnb listing data to explore pricing patterns, listing distribution, and customer engagement trends. The dataset includes information about Airbnb properties such as location, room type, price, reviews, and availability.
 
-Handle missing values and clean the data.
+The objective of this project is to clean the dataset, perform exploratory data analysis (EDA), and visualize key insights to understand Airbnb market trends.
 
-Visualize the following key business questions:
+---
 
---Data Cleaning Steps
+## Dataset Information
+The dataset contains the following features:
 
-Checked for missing values using isnull().sum()
+- Listing ID
+- Host Information
+- Neighbourhood Group
+- Room Type
+- Listing Price
+- Minimum Nights
+- Number of Reviews
+- Reviews per Month
+- Availability
+- Latitude & Longitude
 
-Filled or dropped missing data based on context
+---
 
-Converted data types (e.g., price to float, date to datetime)
+## Tasks Performed
 
-Removed outliers where necessary
+- Performed data cleaning and handled missing values in the dataset  
+- Explored dataset structure and checked data types of all columns  
+- Generated descriptive statistics to understand dataset distribution  
+- Analyzed distribution of Airbnb listing prices  
+- Examined the distribution of different room types  
+- Analyzed listing distribution across neighbourhood groups  
+- Explored the relationship between room type and listing price  
+- Analyzed trends in number of reviews over time  
+- Created visualizations to better understand listing patterns  
 
---Questions Answered in the Notebook
-1️. What is the distribution of listing prices?
+---
 
-Visualized using histograms and boxplots
+## Data Visualization
 
-Identified price range, skewness, and outliers
+The following visualizations were created:
 
-2️. How are different room types distributed?
+- Histogram to analyze the distribution of listing prices  
+- Bar chart to show distribution of room types  
+- Bar chart to show number of listings across neighbourhood groups  
+- Box plot to analyze relationship between price and room type  
+- Time series plot to analyze review trends over time  
 
-Used bar plots to compare frequency of room types (e.g., Entire home, Private room, Shared room)
+---
 
-3️. What is the relationship between price and room type?
+## Key Insights
 
-Visualized using boxplots and violin plots
+- Private rooms and entire homes make up the majority of Airbnb listings  
+- Certain neighbourhood groups have significantly more listings than others  
+- Entire homes generally have higher listing prices compared to shared rooms  
+- Listing prices vary significantly depending on property type and location  
+- Review activity shows fluctuations over time indicating changes in demand  
 
-Found average prices per room type and pricing patterns
+---
 
-4️. How has the number of reviews changed over time?
+## Tools Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+---
+
+## Project Goal
+
+The goal of this project is to demonstrate how Python can be used for data cleaning, exploratory data analysis, and visualization to extract meaningful insights from real-world datasets.
 
 Converted date columns to datetime
 
