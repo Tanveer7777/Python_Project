@@ -1,0 +1,16 @@
+Order_ID,Order_Date,Customer_Name,City,Region,Product_Category,Product_Name,Quantity,Unit_Price,Discount,Sales,Profit,Payment_Method
+2001,2024-05-01,Aryan Mehta,Delhi,North,Electronics,Laptop,five,55000,5000,105000,15000,Credit Card
+2002,,Priya Sharma,,West,Furniture,Chair,three,not_available,,17000,,UPI
+2003,invalid_date,Rahul Khan,Mumbai,West,Electronics,Keyboard,seven,1500,200,22000,5000,Debit Card
+2004,2024-05-04,Neha Verma,Jaipur,North,Clothing,Jacket,4,,500,18000,3000,Cash
+2005,2024-05-05,,Hyderabad,South,Home Appliances,Microwave,two,12000,,25000,,Credit Card
+2006,,Simran Kaur,Bangalore,South,Electronics,Mouse,eight,800,,15000,4000,
+2007,2024-05-07,Karan Patel,,East,Furniture,Table,6,25000,1000,45000,8000,UPI
+2008,invalid_date,Arjun Mehta,Pune,West,Electronics,Headphones,nine,not_available,300,27000,,Debit Card
+2009,2024-05-09,Riya Malhotra,Chennai,South,Clothing,T-Shirt,one,2000,,12000,2500,Cash
+2010,,Aman Sharma,Kolkata,East,Home Appliances,Refrigerator,ten,42000,4000,85000,16000,Credit Card
+2021,2024-05-21,Riya Malhotra,Chennai,South,Electronics,Headphones,seven,not_available,,19000,4200,Cash
+2022,,Priya Sharma,Kolkata,East,Furniture,Chair,five,7000,500,21000,,Credit Card
+2023,invalid_date,Arjun Mehta,,North,Clothing,Jacket,eight,3500,,16000,3200,Debit Card
+2024,2024-05-24,Sara Ali,Jaipur,North,Electronics,Mouse,three,,200,13000,,UPI
+2025,,Aman Sharma,Bangalore,South,Home Appliances,Microwave,nine,12000,,34000,6000,Cash
